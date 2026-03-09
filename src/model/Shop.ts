@@ -24,9 +24,9 @@ export class Shop{
     hungerEffect?:  number;   // negativo = riduce fame
     thirstEffect?:  number;   // positivo = aumenta sete
     statType?: StatType;    //Tipo di ingrediente
-    statLevel?: statLevel;  //Livello ingrediente
+    statLevel?: StatLevel;  //Livello ingrediente
 
     //Proprietà specifiche di negozio bevande
-    addictiveness?: statLevel; //è il livello di dipendenza generato dai drinks
+    addictiveness?: StatLevel; //è il livello di dipendenza generato dai drinks
 
 }
