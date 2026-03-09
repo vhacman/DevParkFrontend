@@ -17,7 +17,7 @@ export class KidPreview
   {
     this.dialog.open(KidFull, 
       {
-      width: '400px', // Set your desired size
+      width: '200px', // Set your desired size
       data: { name: 'My Image' } // Optional: Pass data to the modal
     });
   }
