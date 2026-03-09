@@ -60,7 +60,7 @@ let kids = [
   { id: 1, name: 'Mario', hunger: 100, thirst: 100, sprite: 'kid_1.png', x: 50, y: 50, fun: 80, cash: 20 }
 ];
 
-// GET: Tutti i bambini
+// GET: Visualizza Tutti i bambini
 app.get('/api/kids', (req, res) => {
   res.json(kids);
 });
