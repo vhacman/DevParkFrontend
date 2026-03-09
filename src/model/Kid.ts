@@ -1,7 +1,7 @@
 export interface Kid
 {
     id:number;
-    sprite:string; 
+    sprite:string;
     x:number;
     y:number;
     fun:number;
